@@ -1,0 +1,7 @@
+V1 = input('Digite algo')
+print('Esse algo é alfabetico', V1.isalpha())
+print('Esse algo é numerico', V1.isnumeric())
+print('Esse algo é maiusculo', V1.isupper())
+print('Esse algo é alfanúmerico', V1.isalnum)
+print('Esse algo é minusculo', V1.islower)
+print('Esse algo é captalizada', V1.istitle)
