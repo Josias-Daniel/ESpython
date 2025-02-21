@@ -1,4 +1,6 @@
-import math
-n = int(input('Um número '))
-r = math.sqrt(n)
-print('A raiz de {} é {:.2f}'.format(n, r))
+import random
+import emoji 
+num = random.randint(1, 25)
+print(num)
+print(emoji.emojize('Olá cara legal :sunglasses:',use_aliases=True ))
+
