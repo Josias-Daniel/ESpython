@@ -2,7 +2,7 @@ N = str(input('Nome: '))
 
 print(len(N))
 
-print(('O tanto de Letras s é '),N.count('s'))
+print('O tanto de Letras s é {}'.format(N.count('s')))
 
 print(N.find('a')) 
 
