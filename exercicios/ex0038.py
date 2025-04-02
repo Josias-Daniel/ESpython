@@ -1,22 +1,11 @@
-import datetime
-at = datetime.date.today().year
-print(at)
-a = int(input('Ano de nascimento: '))
-i = at - a
-print('quem nasceu em {} está com {} em {}'.format(a, i, at))
-g = input('Seu genero é M ou F: ')
+n1 = int(input('Número 1: '))
+n2 = int(input('Número 2: '))
 
-if g == 'M':
-    if i == 18: 
-        print('Você deve se alistar imediatamente!!!')
+if n1 == n2:
+    print('Os números são iguais')
 
-    elif i < 18:
-        print('ainda falta {} para o alistamento'.format((18 - i)))
-        print('Seu alistamento será em {}'.format((a + 18)))
+elif n1 > n2:
+    print('O primeiro número é maior')
 
-    elif i > 18:
-        print('Você deveria ter se alistado há {} anos'.format(i - 18))
-        print('seu alistamento foi em {}'.format(a + 18))
-
-elif g == 'F':
-    print('Você não precisa se alistar')
+elif n1 < n2:
+    print('O segundo é maior')
