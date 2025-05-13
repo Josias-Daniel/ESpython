@@ -5,5 +5,8 @@ while True:
     if es < 0  or es > 20:
         print('algo errado tente novamente')
     else:
-        break
+        print(f'O número escolhido foi {nums[es]}')
+        r =str(input('CONTINUAR: [S/N]'))
+        if r == 'N':
+            break
 print(f'O número escolhido foi {nums[es]}')
