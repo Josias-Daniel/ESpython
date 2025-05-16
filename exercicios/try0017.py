@@ -1,0 +1,20 @@
+lista = [0, 5, 10]
+print(lista[1])
+print(lista)
+lista[1] = 7
+lista.append(15)
+print(lista)
+lista.sort()
+print(lista)
+lista.sort(reverse = True)
+print(lista)
+lista.insert(1, 5)
+print(lista)
+lista.pop(1)
+print(lista)
+lista.remove(15)
+print(lista)
+lista2 = lista[:]
+lista2.insert(0, 100)
+print(lista)
+print(lista2)
