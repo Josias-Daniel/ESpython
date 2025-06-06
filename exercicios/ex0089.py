@@ -14,7 +14,7 @@ for c in range(0, len(l)):
     print(c, end='  *   ')
     print(l[c])
 while True:
-    r = int(input('Quer ver nota de qual[00 para interromper]: '))
+    r = int(input('Quer ver nota de qual[100 para interromper]: '))
     print(l[r][1])
-    if r == 00:
+    if r == 100:
         break
